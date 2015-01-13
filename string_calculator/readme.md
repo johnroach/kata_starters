@@ -1,4 +1,5 @@
 Courtesy of: http://osherove.com/tdd-kata-1/
+
 Before you start: 
 Try not to read ahead.
 Do one task at a time. The trick is to learn to work incrementally.
@@ -23,4 +24,3 @@ Numbers bigger than 1000 should be ignored, so adding 2 + 1001  = 2
 Delimiters can be of any length with the following format:  “//[delimiter]\n” for example: “//[***]\n1***2***3” should return 6
 Allow multiple delimiters like this:  “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
 make sure you can also handle multiple delimiters with length longer than one char
-
