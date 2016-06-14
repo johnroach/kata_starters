@@ -1,13 +1,8 @@
 This starter can be used two ways:
 1) Implement cucumber steps to test drive the creation of a Ruby StringCalculator class.
-   This is essentially using cucumber for TDD/Unit testing.  However, it is a lightweight introduction
-   to Cucumber.
+   This is essentially using cucumber for TDD/Unit testing.  However, it is a lightweight introduction to Cucumber.
 
 2) Implement cucumber steps to use the provided StringCalculator class and corresponding HTML page.
    Following this method, you can:
-   a. Link to your already completed string_calculator.js file under the js_jasmine folder. You'll need
-      to code the calculate button to consume the string_calculator javascript object. Then, just focus
-      on writing cucumber scenarios against PageObject elements.
-   b. Do full cycle outer Red-Green-Refactor with cucumber and inner R-G-R with jasmine. In RubyMine,
-      you can pull in the js_jasmine folder to accomplish this. You could also just set up this
-      folder to do jasmine testing, too.
+   a. Link to your already completed string_calculator.js file under the js_jasmine folder. You'll need to code the calculate button to consume the string_calculator javascript object. Then, just focus on writing cucumber scenarios against PageObject elements.
+   b. Do full cycle outer Red-Green-Refactor with cucumber and inner R-G-R with jasmine. In RubyMine, you can pull in the js_jasmine folder to accomplish this. You could also just set up this folder to do jasmine testing, too.
