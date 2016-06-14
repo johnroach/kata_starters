@@ -1,0 +1,13 @@
+Jasmine testing setup
+
+Windows:
+Install node - nodejs.org/download
+include npm
+add node to path
+At cmd prompt 'node -v' and 'npm -v' should give versions
+
+Mac:
+brew install node
+node -v and npm -v should give versions.
+npm install jasmine
+
