@@ -1,7 +1,12 @@
 Jasmine testing setup
 
-Mac:
+You will need Chrome installed.
+
 brew install node
-node -v and npm -v should give versions.
+OR
+install node https://nodejs.org/en/
+
+
+After installation, node -v and npm -v should give versions.
 In the */jasmine folder, type 'npm install'. It will read the package.json file and install the necessary node packages.
 Type 'karma start' to start auto-testing with Karma server and Chrome. Saving changes to spec or src files will display test results in terminal window.
