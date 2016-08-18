@@ -1,11 +1,23 @@
 Jasmine testing setup
 
-You will need Chrome.
+Using Node:
+	You will need Chrome and Node installed.
 
-1. brew install node
-  OR
-  install node https://nodejs.org/en/
-  After installation, node -v and npm -v should give versions.
-2. In the */jasmine folder, type 'npm install'. It will read the package.json file and install the necessary node packages.
-   NOTE: On windows this will install the karma-cli package using the -global argument so you can run karma from any command line
-3. Type 'karma start' to start auto-testing with Karma server and Chrome. Saving changes to spec or src files will display test results in terminal/command window.
+	1. node -v and npm -v should display version numbers
+	2. In the */jasmine folder, type 'npm install'. 
+	   It will read the package.json file and install the necessary node packages.
+   	   NOTE: On Windows, this will install the karma-cli package using the -global
+	3. Type 'karma start' to start auto-testing with Karma server and Chrome. 
+	   Saving changes to spec or src files will automatically re-run tests and display results in terminal/command window.
+
+Without node:
+	1. Download the standalone zip version of jasmine: https://github.com/jasmine/jasmine/releases
+	2. Extract the zip.
+	3. Copy the SpecRunner.html and lib folder into the /jasmine folder of the kata
+	4. Edit SpecRunner.html and update the src and spec sections with the following:
+  	   <!-- include source files here... -->
+  	   <script src="src/FizzBuzz.js"></script>
+
+  	   <!-- include spec files here... -->
+  	   <script src="spec/FizzBuzzSpec.js"></script>
+	5. Open SpecRunner.html in a browser. Refresh the page to re-run tests.
