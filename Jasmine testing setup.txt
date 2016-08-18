@@ -1,12 +1,11 @@
 Jasmine testing setup
 
-You will need Chrome installed.
+You will need Chrome.
 
-brew install node
-OR
-install node https://nodejs.org/en/
-
-
-After installation, node -v and npm -v should give versions.
-In the */jasmine folder, type 'npm install'. It will read the package.json file and install the necessary node packages.
-Type 'karma start' to start auto-testing with Karma server and Chrome. Saving changes to spec or src files will display test results in terminal window.
+1. brew install node
+  OR
+  install node https://nodejs.org/en/
+  After installation, node -v and npm -v should give versions.
+2. In the */jasmine folder, type 'npm install'. It will read the package.json file and install the necessary node packages.
+   NOTE: On windows this will install the karma-cli package using the -global argument so you can run karma from any command line
+3. Type 'karma start' to start auto-testing with Karma server and Chrome. Saving changes to spec or src files will display test results in terminal/command window.
