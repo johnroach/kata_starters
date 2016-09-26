@@ -1,5 +1,8 @@
 **/node_modules/**
-**/.idea
+**/.idea/vcs.xml
+**/.idea/cucumber.iml
+**/.idea/workspace.xml
+**/.idea/
 **/.DS_Store
 **/bin
 **/obj
