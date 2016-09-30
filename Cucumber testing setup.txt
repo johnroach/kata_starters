@@ -1,0 +1,14 @@
+Cucumber testing setup
+
+	You will need Ruby 2.x, Chrome, Firefox and Node installed.
+
+	1. node -v and npm -v should display version numbers
+	2. In the folder with package.json, type 'npm install'
+	   It will read the package.json file and install the necessary node packages
+   	   NOTE: On Windows, this will install the karma-cli package using -global
+	3. In a separate bash session, type 'karma start' to start auto-testing with Karma server and Chrome
+	   Saving changes to spec or src files will automatically re-run tests and display results in terminal/command window
+	   a. You can also run the karma tests using the karma plug-in in RubyMine
+	4. Run bundle install
+	   It will read the Gemfile (and .lock) and install the necessary gems for cucumber
+    5. Type 'cucumber' to run the cucumber scenarios

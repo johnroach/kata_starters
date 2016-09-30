@@ -3,7 +3,8 @@ ATDD a web-based String Calculator with Cucumber
 Based on: http://osherove.com/tdd-kata-1/
 
 
-Before you start: 
+Before you start:
+
 	A. Don't read ahead. Avoid the temptation to design for the future. The objective is to learn to work incrementally, testing from the outside in as each new behavior is requested.
 
 	B. Write a failing scenario for one behavior. Then TDD in small increments, forcing yourself to write a unit test for each change to the StringCalculator.
@@ -14,6 +15,7 @@ Before you start: 
 	
 
 Using the skeleton web application, use ATDD and TDD to add the following behaviors one at a time:
+
 	1. For an empty string, the application will return 0.
 
 
