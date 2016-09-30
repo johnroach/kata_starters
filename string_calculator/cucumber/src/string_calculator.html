@@ -2,9 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
-    <!--To use source from the js_jasmine version of this kata, uncomment the following script tag: -->
-    <!--<script type="application/javascript" src = "../../js_jasmine/src/string_calculator.js"></script>-->
+    <title>String Calculator kata in cucumber</title>
 </head>
 <body>
     <h2>String Calculator</h2>
@@ -16,3 +14,19 @@
     <label id="sum"></label>
 </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>
+<script type="application/javascript" src = "string_calculator.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#calculate').click(function(){
+            let calculator = new StringCalculator();
+            var addends = $('#addends').val();
+            var sum = calculator.add(addends);
+            if (sum) {
+                $('#sum').text(sum);
+            }
+        })
+    });
+</script>

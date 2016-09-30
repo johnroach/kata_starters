@@ -1,0 +1,18 @@
+{
+  "name": "string_calculator_kata_jasmine",
+  "version": "",
+  "description": "Package for String Calculator kata using Jasmine and Karma",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
