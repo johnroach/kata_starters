@@ -6,4 +6,4 @@ Feature: String Calculator
   Scenario: String Calculator properly handles empty input
     Given I navigate to the string calculator page
     When I calculate the sum with no input
-    Then I see a result of ""
+    Then I see a result of "0"
