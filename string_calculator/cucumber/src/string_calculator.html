@@ -24,7 +24,7 @@
             let calculator = new StringCalculator();
             var addends = $('#addends').val();
             var sum = calculator.add(addends);
-            if (sum) {
+            if (sum != undefined) {
                 $('#sum').text(sum);
             }
         })
