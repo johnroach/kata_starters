@@ -11,3 +11,11 @@ Then(/^I see a result of "([^"]*)"$/) do |expected_result|
     expect(page.sum).to eq(expected_result)
   end
 end
+
+When(/^I calculate the sum with input of "([^"]*)"$/) do |number_to_add|
+  on(StringCalculatorPage) do |page|
+    page.addends =  number_to_add
+    page.calculate
+  end
+
+end
