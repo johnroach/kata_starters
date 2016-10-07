@@ -3,8 +3,9 @@ class StringCalculatorPage
 
   page_url('file://' + Dir.pwd + '/src/string_calculator.html')
 
+  text_field(:addend, id: 'addend')
+  button(:plus, id: 'plus')
   button(:calculate, id: 'calculate')
-  text_field(:addends, id: 'addends')
   label(:sum, id: 'sum')
 
 end

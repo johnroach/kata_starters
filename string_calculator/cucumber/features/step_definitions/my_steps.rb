@@ -14,7 +14,8 @@ end
 
 When(/^I calculate the sum with input of "([^"]*)"$/) do |number_to_add|
   on(StringCalculatorPage) do |page|
-    page.addends =  number_to_add
+    page.addend =  number_to_add
+    page.plus
     page.calculate
   end
 
