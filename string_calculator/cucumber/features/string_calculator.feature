@@ -14,7 +14,7 @@ Feature: String Calculator
     Then the result is "42"
     # Up until now, this is not the best example because the ATDD tests are almost identical to the TDD tests....
 
-  # Since I want the user to get a better experience,
+  # Since I want the user to have a better experience,
   # I added the behavior to clear the textbox
   Scenario: String Calculator clears input when you calculate
     Given I navigate to the string calculator page
