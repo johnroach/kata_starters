@@ -8,7 +8,6 @@
     <h2>String Calculator</h2>
     <label for="addend"> Enter input:</label>
     <input type="text" id="addend" />
-    <input type="button" value="+" id = "plus" />
     <br/>
     <br/>
     <input type="button" value="Calculate" id = "calculate" />
@@ -24,17 +23,13 @@
 <script>
     $(document).ready(function() {
         let calculator = new StringCalculator();
-        let addends = [];
-        $('#plus').click(function(){
-            addend = $("#addend").val();
-            addends.push(addend);
-            addend = "";
-        });
         $('#calculate').click(function(){
-            var sum = calculator.add(addends[0]);
+            addend = $("#addend");
+            var sum = calculator.add(addend.val());
             if (sum != undefined) {
                 $('#sum').text(sum);
             }
+            addend.val("");
         })
     });
 </script>

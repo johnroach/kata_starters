@@ -6,22 +6,21 @@ Feature: String Calculator
   Scenario: String Calculator properly handles empty input
     Given I navigate to the string calculator page
     When I calculate the sum with no input
-    Then I see a result of "0"
+    Then the result is "0"
 
   Scenario: String Calculator properly handles single number input
     Given I navigate to the string calculator page
     When I calculate the sum with input of "42"
-    Then I see a result of "42"
+    Then the result is "42"
+    # Up until now, this is not the best example because the ATDD tests are almost identical to the TDD tests....
 
-
-  Scenario: String Calculator properly handles single number input
+  # Since I want the user to get a better experience,
+  # I added the behavior to clear the textbox
+  Scenario: String Calculator clears input when you calculate
     Given I navigate to the string calculator page
-    When I calculate the sum with input of "42"
-    Then I see a result of "42"
+    When I calculate the sum with input of "23"
+    Then the addend is cleared
 
-
-    # Up until now, this is weird because the ATDD tests are almost identical to the TDD tests....
-  # Time to make the UI accept two numbers with a + button? Maybe plus button should be there at the beginning?
-  # Maybe the app shouldn't have any UI at all to make it more realistic.
-  #At least commented out so we can see a more realistic ATDD lifecycle.
-  
+  # Now there is a scenario that did not require a change to the unit tests. It is also an opportunity to
+  # realize that we have quite a bit of code in that calculate event. Code without unit tests, but also
+  # with behavior that is not the responsibility of the Calculator.
