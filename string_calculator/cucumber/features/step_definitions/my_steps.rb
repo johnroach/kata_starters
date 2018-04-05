@@ -1,3 +1,3 @@
-Given(/^I navigate to the string calculator page$/) do
+Given(/^the string calculator page is displayed$/) do
   visit(StringCalculatorPage)
 end

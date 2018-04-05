@@ -4,6 +4,6 @@ Feature: String Calculator
   I want to get the sum of 0 or more numbers
 
   Scenario: String Calculator properly handles empty input
-    Given I navigate to the string calculator page
+    Given the string calculator page is displayed
     When I calculate the sum with no input
     Then I see a result of "0"

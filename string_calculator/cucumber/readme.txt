@@ -14,6 +14,7 @@ Before you start:
 	D. You only need to test for correct inputs. We won't worry about invalid inputs.
 	
 
+
 Using the skeleton web application, use ATDD and TDD to add the following behaviors one at a time:
 
 	1. For an empty string, the application will return 0.
@@ -23,6 +24,13 @@ Using the skeleton web application, use ATDD and TDD to add the following behavi
 
 
 	2. Update the application to accept one number and return that number
+
+
+
+
+
+
+
 
 
 
@@ -40,10 +48,18 @@ Using the skeleton web application, use ATDD and TDD to add the following behavi
 
 
 
+
+
+
+
 	5. Allow the web application to use a multi-line text box to list numbers to add (in addition to comma-delimited)
 	  a. The following input is ok:  “1\n2,3”  (will equal 6)
 	  b. For clarity, the following input is not valid:  “1,\n”
 	
+
+
+
+
 
 
 
