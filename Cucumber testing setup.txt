@@ -1,6 +1,6 @@
 Cucumber testing setup
 
-	You will need Ruby 2.x, Chrome, Firefox and Node installed.
+	You will need Ruby 2.x, Chrome, and Node installed.
 
 	1. node -v and npm -v should display version numbers
 	2. In the folder with package.json, type 'npm install'
