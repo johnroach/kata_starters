@@ -22,9 +22,9 @@
     $(document).ready(function() {
         $('#calculate').click(function(){
             let calculator = new StringCalculator();
-            var addends = $('#addends').val();
-            var sum = calculator.add(addends);
-            if (sum != undefined) {
+            let addends = $('#addends').val();
+            let sum = calculator.add(addends);
+            if (sum !== undefined) {
                 $('#sum').text(sum);
             }
         })
