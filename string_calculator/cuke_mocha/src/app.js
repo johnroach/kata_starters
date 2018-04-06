@@ -1,5 +1,5 @@
 import express from 'express';
-import StringCalculator from './StringCalculator';
+import StringCalculator from './string_calculator';
 
 var app = express();
 

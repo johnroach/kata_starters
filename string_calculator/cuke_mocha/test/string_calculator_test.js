@@ -1,5 +1,5 @@
 let expect = require('chai').expect;
-let StringCalculator = require('../src/string_calculator');
+import StringCalculator from '../src/string_calculator';
 
 describe('String Calculator', () => {
     describe('add', () => {

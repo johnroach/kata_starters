@@ -1,5 +1,2 @@
 require 'rspec'
-require 'page-object'
-
-
-World(PageObject::PageFactory)
+require 'rest_client'
